@@ -1,6 +1,6 @@
 const database = new Map();
 
-export const saveUser = (email, password) => {
+export const seaveUser = (email, password) => {
   database.set(email, password);
 };
 
